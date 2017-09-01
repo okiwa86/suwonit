@@ -1,5 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var NaverCrawler_1 = require("./Template/NaverCrawler");
+/**
+ * Template Pattern
+ */
+var crawler = new NaverCrawler_1.NaverCrawler('www.naver.com');
+for (var _i = 0, _a = crawler.collect(); _i < _a.length; _i++) {
+    var rs = _a[_i];
+    console.log(rs);
+}
 /**
  * Iterator Pattern
  */
