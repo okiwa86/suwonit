@@ -7,7 +7,7 @@ export abstract class Crawler{
     public baseUrl: string;
     private requestOption: Iteratble;
     private iterator: Iterator;
-
+    
     constructor(baseUrl: string) {
         this.baseUrl = baseUrl;
         this.requestOption =  new RequestOption();
