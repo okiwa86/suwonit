@@ -1,3 +1,12 @@
+import {NaverCrawler} from './Template/NaverCrawler';
+/**
+ * Template Pattern
+ */
+var crawler = new NaverCrawler('www.naver.com');
+for(var rs of crawler.collect()){
+    console.log(rs);
+}
+
 /**
  * Iterator Pattern
  */
@@ -13,6 +22,6 @@ for(var i = 0; i < 10; i++){
 
 var iterator:Iterator = bucket.getIterator();
 while(iterator.hasNext()){
-    let item:Item = iterator.next();
+    let item = iterator.next();
     console.log(item.info());
 }
