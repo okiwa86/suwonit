@@ -139,15 +139,15 @@ public void endHookMethod(){
     // 자식클래스가 지지고 복도록 한다.
 }
 public final void writeDb() {
-    	System.out.println(folderPath);
+		System.out.println(folderPath);
 		String[] fileList = targetFile(folderPath); 
-        
+		
 		for(String file : fileList) {
 			String[] sql = parsingFile(file);
 			mergeDb(sql);
 		}
         // 빈 메소드를 두고 쓰고싶은 사람만 override 해서 사용하게끔.
-        endHookMethod(); 
+		endHookMethod(); 
 		System.out.println("end of wrtieDb\n");
 }
 ```
