@@ -21,17 +21,17 @@
 
 ## 4. 장/단점
 
-#### [장점]
+### [장점]
 - 객체를 생성하기 위한 별도의 객체 생성 클래스가 불필요
 - 서브 클래스의 수를 줄일 수 있다.
 
-#### [단점]
+### [단점]
 - 생성될 객체들의 클래스들이 모두 Clone() 메소드를 구현해야한다.
 
 <br />
 ## 5. 코드 설명
 
-#### [IEmployee.cs]
+### [IEmployee.cs]
 
 ~~~~
  public interface IEmployee
@@ -42,7 +42,7 @@
 ~~~~
 <br />
 
-#### [Developer.cs]
+### [Developer.cs]
 
 ~~~~
     public class Developer : IEmployee
@@ -64,7 +64,7 @@
 ~~~~
 <br />
 
-#### [Designer.cs]
+### [Designer.cs]
 
 ~~~~
     public class Designer : IEmployee
@@ -86,7 +86,7 @@
 ~~~~
 <br />
 
-#### [MainProgram.cs]
+### [MainProgram.cs]
 
 ~~~~
     public class MainProgram : MonoBehaviour
@@ -123,7 +123,7 @@
 
 <br />
 
-#### [실행 결과]
+### [실행 결과]
 
 	Name : Sam, Role : Team Leader, langauge : C++
 	Name : Jenny, Role : Team Leader, langauge : C++
