@@ -48,8 +48,6 @@ TextBuilder의 인스턴스를 Director에 제공하거나 Director의 HTMLBuild
 
 ## 코드로 보기
 
-### 텔레스코핑 생성자
-
 ```java
 /* "Product" */
 // 1) 만들 클래스에 대해 정의 한다.
