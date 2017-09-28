@@ -8,6 +8,8 @@
 
 창구라는 표현이 적절한듯 합니다.
 
+![UML](https://upload.wikimedia.org/wikipedia/commons/9/96/W3sDesign_Facade_Design_Pattern_UML.jpg)
+
 ## 왜쓸까
 
 디자인패턴하면서 매번 쓰는 표현인것 같지만...
@@ -104,3 +106,4 @@ VAS에 들어가면, VAS에서 들어온 파라미터를 가지고 여기저기 
 
 1. 아주 쉬운 쿼리도 BI,FACDE,VAS,VDAO,DTO에 각각 만들어주어야 한다
 1. 이미 다 구현되어 있으면, 너무나 편해서 개발자가 공부할 필요가 없어 나태해진다
+1. VAS/FAS 는 OOP적인 사고로 짜기 어려워진다. -> 미친듯이 복잡해진다.(좀더 유연하게 다른 패턴을 적용할 수 있는 구조여야...)
